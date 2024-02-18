@@ -1,0 +1,18 @@
+Black #000000
+White #FFFFFF
+
+Warm grey 2 #F8F7F3
+
+Warm grey 3 #E1E0DD
+
+Warm grey 4 #D0CDC9
+
+Warm grey 5 #B5B1A9
+
+Warm grey 6 #9D988E
+
+Warm grey 7 #89837A
+
+Warm grey 8 #6A655B
+
+Warm grey 9 #4C473E
