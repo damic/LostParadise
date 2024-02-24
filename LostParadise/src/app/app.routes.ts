@@ -1,16 +1,22 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { HomeComponent } from './home/home.component';
-import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
-import { HeaderComponent } from './header/header.component';
+import { AccomodationComponent } from './accomodation/accomodation.component';
+import { BarComponent } from './bar/bar.component';
+import { ExploreComponent } from './explore/explore.component';
+import { ResortComponent } from './resort/resort.component';
+import { StoryComponent } from './story/story.component';
 
 export const routes: Routes = [
-  { path: 'header', component: HeaderComponent },
   { path: '', component: HomeComponent },
-  { path: 'about', component: AboutComponent },
-  { path: 'contact', component: ContactComponent }
-  
+  { path: 'contact', component: ContactComponent },
+  { path: 'accomodation', component: AccomodationComponent },
+  { path: 'bar', component: BarComponent },
+  { path: 'explore', component: ExploreComponent },
+  { path: 'resort', component: ResortComponent },
+  { path: 'story', component: StoryComponent },
+
 ];
 
 @NgModule({

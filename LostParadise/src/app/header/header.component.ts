@@ -9,4 +9,14 @@ import { Component } from '@angular/core';
 })
 export class HeaderComponent {
 
+  constructor() { }
+
+  toggleMenu() {
+    let menuToggle: HTMLInputElement = document.getElementById('menu-toggle') as HTMLInputElement;
+    if (menuToggle) {
+      menuToggle.checked = false;
+    }
+  }
+
+
 }
