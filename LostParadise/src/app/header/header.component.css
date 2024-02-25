@@ -1,17 +1,16 @@
   
   .headercontainer{
-    width: 1920px;
     height: 112px;
     top: 20px;
     left: 20px;
     display: flex;
-
+    flex-direction: row;
   }
 
 .hamburger-menu {
-    position: relative;
+    position: fixed;
     align-self: left;
-    width: 25%;
+    z-index: 2;
   }
   .menu-icon {
     cursor: pointer;
@@ -22,24 +21,27 @@
   }
   #menu-toggle:checked + .menu-icon + .dropdown {
     display: block;
+
   }
   .dropdown {
     display: none;
-    position: absolute;
+    position: fixed;
     background-color: #f9f9f9;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
     width: 100%;
+
   }
   .dropdown ul {
     list-style: none;
     padding: 0;
     margin: 0;
+
   }
   .dropdown ul li a {
+
     text-decoration: none;
     color: black;
     display: block;
-    text-align: left;
+    text-align: center;
     padding: 12px 16px;
   }
   .dropdown ul li a:hover {
@@ -47,10 +49,13 @@
   }
 
 .headertext{
-align-self: center;
+    flex: 1; 
+    text-align: center;
+    margin-left: center;
+
 }
 
 .booking{
     align-self: right;
-
+    margin-left: auto;
 }
