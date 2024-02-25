@@ -4,5 +4,19 @@
     left: 20px;
     display: flex;
     flex-direction: row;
+    font-family: 'LpFontReg';
   }
-  
+  .footernavlinklist{
+    text-decoration: none;
+
+    
+  }
+  .footernavlinklist:link{
+    text-decoration: none;
+
+  }
+
+  a {
+    color:black;
+    text-decoration: none;
+  }
