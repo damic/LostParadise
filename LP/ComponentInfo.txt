@@ -1,0 +1,22 @@
+
+
+BOOKING BUTTON
+
+
+#HAMBURGER MENU
+
+functionality 
+
+- fade in or dropdown
+- fullscreen
+- menu items fitscreen
+
+
+#IMAGE GALLERY
+
+ - image gallery no fixed
+
+#IMAGES
+
+
+#MAP
