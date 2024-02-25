@@ -1,1 +1,39 @@
-/* You can add global styles to this file, and also import other style files */
+/*############################ FONTS ############################## */
+  @font-face {
+    font-family: 'LpFontBold';
+    src: url('assets/font/CatalogueLL-Bold.otf');
+  }@font-face {
+    font-family: 'LpFontBoldItal';
+    src: url('assets/font/CatalogueLL-BoldItalic.otf');
+  }@font-face {
+    font-family: 'LpFontLight';
+    src: url('assets/font/CatalogueLL-Light.otf');
+  }@font-face {
+    font-family: 'LpFontLightItal';
+    src: url('assets/font/CatalogueLL-LightItalic.otf');
+  }@font-face {
+    font-family: 'LpFontReg';
+    src: url('assets/font/CatalogueLL-Regular.otf');
+  }@font-face {
+    font-family: 'LpFontRegItal';
+    src: url('assets/font/CatalogueLL-RegularItalic.otf');
+  }
+/*################################################################# */
+
+
+
+/*############################ COLORS ############################## */
+  :root {
+    --red: #ff0000; 
+    --black: #000000; 
+    --white: #FFFFFF; 
+    --warmGrey1: #F8F7F3; 
+    --warmGrey2: #E1E0DD; 
+    --warmGrey3: #D0CDC9; 
+    --warmGrey4: #B5B1A9; 
+    --warmGrey5: #9D988E; 
+    --warmGrey6: #89837A; 
+    --warmGrey7: #6A655B; 
+    --warmGrey8: #4C473E; 
+}  
+/*#################################################################### */
