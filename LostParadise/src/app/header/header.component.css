@@ -1,4 +1,9 @@
+@font-face {
+    font-family: 'LpFontReg';
+    src: url('../../assets/font/CatalogueLL-Regular.otf');
+  }
   
+
   .headercontainer{
     height: 112px;
     top: 20px;
@@ -52,10 +57,17 @@
 
 .headertext{
     flex: 1; 
+    text-size-adjust: 20px;
     text-align: center;
     margin-left: center;
-
+    font-family: 'LpFontReg';
+    width: 3px;
+    height: 10px;
+    top: 0px;
+    left: 4px;
+    
 }
+
 a.button {
     padding: 1px 6px;
     border: 1px outset buttonborder;
