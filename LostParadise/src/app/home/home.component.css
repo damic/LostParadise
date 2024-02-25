@@ -1,0 +1,9 @@
+
+.paradiseDiv{
+    height: 1999px;
+    top: 20px;
+    left: 20px;
+    display: flex;
+    flex-direction: row;
+  }
+  
