@@ -41,21 +41,40 @@
 }
 .stack-Txt {
   font-family: 'LpFontReg';
-  padding-left: 80vw;
+  padding-left: 90vw;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
   font-size: 24px;
-  text-transform: uppercase;
+/* Lost Paradise */
+
+
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 40px;
+text-align: center;
+letter-spacing: 0.15em;
+font-variant: small-caps;
+
 
 }
-.test{
+
+.storytext{
   font-family: 'LpFontReg';
-  font-size: 34px;
-  
+  font-size: 56px;
+  margin-left: 540px;
+  margin-right: 540px;
 }
+.accomotext{
+  font-family: 'LpFontReg';
+  font-size: 56px;
+  margin-left: 360px;
+  margin-right: 360px;
+}
+
 p.text {
   font-family: 'LpFontReg';
 
