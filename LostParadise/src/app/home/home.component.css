@@ -41,17 +41,20 @@
 }
 .stack-Txt {
   font-family: 'LpFontReg';
-padding-left: 80vw;
+  padding-left: 80vw;
   position: absolute;
   top: 50%;
+  left: 50%;
   transform: translate(-50%, -50%);
   color: white;
-  
+  font-size: 24px;
+  text-transform: uppercase;
+
 }
 .test{
   font-family: 'LpFontReg';
   font-size: 34px;
-
+  
 }
 p.text {
   font-family: 'LpFontReg';
