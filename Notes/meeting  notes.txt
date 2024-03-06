@@ -1,0 +1,26 @@
+
+
+- 2 image gallery - iamges not clickable, 
+
+
+- bungalow page per bungalow on accomodation page
+
+
+- only button animation is hover and switch to black
+
+
+- favorite icon to be added
+
+
+
+
+
+
+
+
+
+
+
+
+
+
