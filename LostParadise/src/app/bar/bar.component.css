@@ -1,0 +1,35 @@
+.stackParent {
+    position: relative
+  }
+  
+  /* make image responsive */
+  .stack-Img {
+    padding-top: 0%;
+    max-width: 95vw;
+    margin-left: 2vw;
+    margin-right: 2vw;
+    height: 80vw;
+    width: 95vw;
+    height: auto;
+  }
+  .stack-Txt {
+    font-family: 'LpFontReg';
+    padding-left: 90vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 24px;
+  /* Lost Paradise */
+  
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 0.15em;
+    font-variant: small-caps;
+  
+  
+  }
