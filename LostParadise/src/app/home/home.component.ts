@@ -3,11 +3,10 @@ import { CarouselModule } from 'primeng/carousel';
 
 import { ButtonModule } from 'primeng/button'; 
 
-interface Car { 
+interface SmallImageCar { 
   id?: string; 
-  name?: string; 
+  picturelink?: string; 
   description?: string; 
-  price?: number; 
 } 
 
 @Component({
@@ -22,42 +21,37 @@ interface Car {
 
 export class HomeComponent {
 
-  cars: Car[] = []; 
+  smallgalitem: SmallImageCar[] = []; 
   
   constructor() { } 
 
   ngOnInit() { 
-      this.cars = [ 
+      this.smallgalitem = [ 
           { 
-              id: '1', 
-              name: 'Bugatti', 
-              description: 'Racing car', 
-              price: 800, 
+              id: '-1-', 
+              picturelink: '../../assets/Images/34b30fd529934faf3e0c02e66d8e3033.jfif', 
+              description: 'Lost Paradise is a place for art, the people who make it and the people who love it. Our apartments are really', 
           }, 
           { 
-              id: '2', 
-              name: 'Ferrari', 
-              description: 'The Prancing Horse', 
-              price: 1500, 
+              id: '-2-', 
+              picturelink: '../../assets/Images/34b30fd529934faf3e0c02e66d8e3033.jfif', 
+              description: 'Lost Paradise is a place for art, the people who make it and the people who love it. Our apartments are really', 
           }, 
           { 
-              id: '3', 
-              name: 'Porsche', 
-              description: 'Full spectrum', 
-              price: 10000, 
+              id: '-3-', 
+              picturelink: '../../assets/Images/34b30fd529934faf3e0c02e66d8e3033.jfif', 
+              description: 'Lost Paradise is a place for art, the people who make it and the people who love it. Our apartments are really', 
           }, 
           { 
-            id: '4', 
-            name: 'Porsche', 
-            description: 'Full spectrum', 
-            price: 10000, 
+              id: '-4-', 
+              picturelink: '../../assets/Images/34b30fd529934faf3e0c02e66d8e3033.jfif', 
+              description: 'Lost Paradise is a place for art, the people who make it and the people who love it. Our apartments are really', 
         }, 
         { 
-          id: '5', 
-          name: 'Porsche', 
-          description: 'Full spectrum', 
-          price: 10000, 
-      }, 
+              id: '-5-', 
+              picturelink: '../../assets/Images/34b30fd529934faf3e0c02e66d8e3033.jfif', 
+              description: 'Lost Paradise is a place for art, the people who make it and the people who love it. Our apartments are really', 
+        }, 
       ]; 
   } 
 }
