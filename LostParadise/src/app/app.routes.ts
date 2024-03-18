@@ -7,7 +7,6 @@ import { BarComponent } from './bar/bar.component';
 import { ExploreComponent } from './explore/explore.component';
 import { ResortComponent } from './resort/resort.component';
 import { StoryComponent } from './story/story.component';
-import Swiper from 'swiper';
 import { PrivacypComponent } from './privacyp/privacyp.component';
 import { FaqComponent } from './faq/faq.component';
 import { TermsComponent } from './terms/terms.component';
