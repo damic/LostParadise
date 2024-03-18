@@ -7,6 +7,10 @@ import { BarComponent } from './bar/bar.component';
 import { ExploreComponent } from './explore/explore.component';
 import { ResortComponent } from './resort/resort.component';
 import { StoryComponent } from './story/story.component';
+import Swiper from 'swiper';
+import { PrivacypComponent } from './privacyp/privacyp.component';
+import { FaqComponent } from './faq/faq.component';
+import { TermsComponent } from './terms/terms.component';
 
 export const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -16,6 +20,9 @@ export const routes: Routes = [
   { path: 'explore', component: ExploreComponent },
   { path: 'resort', component: ResortComponent },
   { path: 'story', component: StoryComponent },
+  { path: 'privacyp', component: PrivacypComponent },
+  { path: 'faq', component: FaqComponent },
+  { path: 'terms', component: TermsComponent },
 
 ];
 

@@ -7,8 +7,8 @@
     top: 20px;
     position: relative;
     display: inline-block;
-
 }
+
 .image-container1 img {
   display: block;
   
@@ -101,7 +101,6 @@ p.text {
 
 .card{
 padding: 2vw;
-border-color: aqua;
 margin: 0 auto;
 border-width:thin;
 border-style:solid;
