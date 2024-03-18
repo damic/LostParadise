@@ -22,14 +22,18 @@
 
 <p class="accomotext text-center">Charming bungalows embedded in nature, each with it’s own unique character and style</p>
 
-
+<div class="carcont">
 
 <p-carousel 
     [value]="smallgalitem"  
     [numVisible]="3"  
     [numScroll]="1"  
-    [circular]="false"> 
-    <ng-template let-car pTemplate="itaem"> 
+    [circular]="false"
+    [showIndicators]="false"  
+    [showNavigators]="true"
+    
+    > 
+    <ng-template let-car pTemplate="item"> 
       <div class="card" style="width: 18rem;">
         <img class="card-img-top" src={{car.picturelink}} alt="Card image cap">
         <div class="card-body">

@@ -88,7 +88,6 @@
 
 p.text {
   font-family: 'LpFontReg';
-
   display: block;
   position: absolute;
   top: 20%;
@@ -119,3 +118,38 @@ border-radius: 0%;
   left: 50%;
   height: auto;
 }
+
+
+
+::ng-deep .p-carousel .p-carousel-content .p-carousel-prev {
+  padding: 2vw;
+  margin: 0 auto;
+  
+  border-width:thin;
+  border-style:solid;
+  border-color:black;
+  border-radius: 0%;
+  left:45vw; 
+  top:40vw;
+  
+}
+
+::ng-deep .p-carousel .p-carousel-content .p-carousel-next {
+  padding: 2vw;
+  margin: 0 auto;
+  
+  border-width:thin;
+  border-style:solid;
+  border-color:black;
+  border-radius: 0%;
+  right:45vw; 
+  top:40vw;
+  
+}
+
+::ng-deep .p-carousel-content{
+  min-height: 100vw;
+  min-width: 100vw;
+  
+}
+

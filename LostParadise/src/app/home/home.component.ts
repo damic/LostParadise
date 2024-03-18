@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
 import { CarouselModule } from 'primeng/carousel';
-
 import { ButtonModule } from 'primeng/button'; 
 
 interface SmallImageCar { 
@@ -26,6 +25,7 @@ export class HomeComponent {
   constructor() { } 
 
   ngOnInit() { 
+
       this.smallgalitem = [ 
           { 
               id: '-1-', 
