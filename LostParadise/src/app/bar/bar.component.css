@@ -95,8 +95,34 @@
     font-family: 'LpFontReg';
     display: block;
   }
+  
+.hr
+{
+  padding: 0px;
+  margin: 0px;    
+}
 
-  .vl {
-    border-left: 1px solid black;
-    height: 100%  
-  }
+.vl {
+  border-width:thin;
+
+  border-left: 1px solid black;
+  height: 100%  
+}
+
+
+
+.gridcard{
+  background-image:url("../../assets/Images/gridbackground.svg") ;
+  height: 800px;
+  width: 100%;
+
+}
+
+.bigcard{
+  top: 15%;
+
+  padding: 3vw;
+  position: relative;
+  margin:  auto;
+  background-color: white;
+}
