@@ -1,4 +1,10 @@
 
+.testbor
+{
+
+  border: 1px;
+}
+
 .image-container1{
     margin-left: 50px;
     margin-right: 50px;
@@ -97,6 +103,31 @@ p.text {
   z-index: 10;
 }
 
+.btn-lg {
+  background: #ffffff;
+  color: #000;
+  border:1px thin;
+  border-width:thin;
+  border-style:solid;
+
+  font-family: 'LpFontReg';
+  font-variant: small-caps;
+
+}
+
+.btn-lg:hover {
+  background: black;
+}
+.btn-lg:hover::target-text {
+  background: wheat;
+}
+a:hover{
+  color: #ffffff;
+}
+
+.a{
+
+}
 
 .card{
 padding: 2vw;
