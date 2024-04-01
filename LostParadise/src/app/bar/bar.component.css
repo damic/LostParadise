@@ -1,5 +1,5 @@
 .stackParent {
-  position: relative
+  position: relative;
 }
 
 /* make image responsive */
@@ -13,7 +13,7 @@
   height: auto;
 }
 .stack-Txt {
-  font-family: 'LpFontReg';
+  font-family: "LpFontReg";
   padding-left: 90vw;
   position: absolute;
   top: 50%;
@@ -21,7 +21,7 @@
   transform: translate(-50%, -50%);
   color: white;
   font-size: 24px;
-/* Lost Paradise */
+  /* Lost Paradise */
 
   font-style: normal;
   font-weight: 400;
@@ -30,20 +30,17 @@
   text-align: center;
   letter-spacing: 0.15em;
   font-variant: small-caps;
-
-
 }
 
-.covertext1{
-  font-family: 'LpFontReg';
+.covertext1 {
+  font-family: "LpFontReg";
   font-size: 56px;
   margin-left: 20%;
   margin-right: 20%;
 }
 
-
-.minitext{
-  font-family: 'LpFontReg';
+.minitext {
+  font-family: "LpFontReg";
   font-size: 22px;
   font-weight: 400;
   line-height: 32px;
@@ -51,78 +48,69 @@
   text-align: justified;
 }
 
-
-
 .headercontainer {
-  font-family: 'LpFontReg';
+  font-family: "LpFontReg";
 
   display: block;
   position: absolute;
   top: 20%;
   left: 20%;
-  transform: translate(-50%, -50%); 
+  transform: translate(-50%, -50%);
   color: #fff;
   z-index: 10;
 }
 
-.openinghours{
+.openinghours {
   width: Fixed (898px);
   height: Fixed (116px);
   top: 1979px;
   left: 511px;
   padding: 13 54 13 54;
-  border-radius: 20   ;
+  border-radius: 20;
   border: 1px;
-
 }
 
-.openhours{
-  border:1px solid black;
+.openhourss {
+  border: 1px solid black;
   border-radius: 20px;
-
 }
 
-.card{
+.card {
   padding: 2vw;
   margin: 0 auto;
-  border-width:thin;
-  border-style:solid;
-  border-color:black;
-  
-  }
+  border-width: thin;
+  border-style: solid;
+  border-color: black;
+}
 
 .card-text {
-    font-family: 'LpFontReg';
-    display: block;
-  }
-  
-.hr
-{
+  font-family: "LpFontReg";
+  display: block;
+}
+
+.hr {
   padding: 0px;
-  margin: 0px;    
+  margin: 0px;
 }
 
 .vl {
-  border-width:thin;
+  border-width: thin;
 
   border-left: 1px solid black;
-  height: 100%  
+  height: 100%;
 }
 
-
-
-.gridcard{
-  background-image:url("../../assets/Images/gridbackground.svg") ;
+.gridcard {
+  background-image: url("../../assets/Images/gridbackground.svg");
   height: 800px;
   width: 100%;
-
 }
 
-.bigcard{
+.bigcard {
   top: 15%;
 
   padding: 3vw;
   position: relative;
-  margin:  auto;
+  margin: auto;
   background-color: white;
 }
