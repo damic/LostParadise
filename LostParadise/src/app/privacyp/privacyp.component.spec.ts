@@ -8,10 +8,9 @@ describe('PrivacypComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [PrivacypComponent]
-    })
-    .compileComponents();
-    
+      imports: [PrivacypComponent],
+    }).compileComponents();
+
     fixture = TestBed.createComponent(PrivacypComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();

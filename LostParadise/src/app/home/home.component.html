@@ -1,72 +1,77 @@
-
-
-
 <div class="row">
   <div class="col-2">
     <div class="stackParent">
-      <img class="stack-Img img-fluid" src="../../assets/Images/island.jpg">
+      <img class="stack-Img img-fluid" src="../../assets/Images/island.jpg" />
       <div class="stack-Txt">
-        <p class="text-center text-nowrap ">Lost paradise 49.2107581N, 16.6188150E</p>
+        <p class="text-center text-nowrap">
+          Lost paradise 49.2107581N, 16.6188150E
+        </p>
       </div>
     </div>
   </div>
 </div>
 
-<div class="story-container1">
-</div>
+<div class="story-container1"></div>
 
-<div class="tet">
-</div>
+<div class="tet"></div>
 
-
-
-<p class="storytext text-center">Lost Paradise started out as a dream to create a paradise in paradise</p>
+<p class="storytext text-center">
+  Lost Paradise started out as a dream to create a paradise in paradise
+</p>
 <div class="d-flex justify-content-center">
-  <a  class="testbor btn btn-lg rounded-pill "href="/story">read the story</a>
+  <a class="testbor btn btn-lg rounded-pill" href="/story">read the story</a>
 </div>
-<hr class="solid">
+<hr class="solid" />
 
-<p class="accomotext text-center">Charming bungalows embedded in nature, each with it’s own unique character and style</p>
+<p class="accomotext text-center">
+  Charming bungalows embedded in nature, each with it’s own unique character and
+  style
+</p>
 <div class="d-flex justify-content-center">
-  <a  class="testbor border btn btn-lg rounded-pill"href="/accomodation">explore the accomodation</a>
-
+  <a class="testbor border btn btn-lg rounded-pill" href="/accomodation"
+    >explore the accomodation</a
+  >
 </div>
 
-
-<p-carousel 
-    [value]="smallgalitem"  
-    [numVisible]="3"  
-    [numScroll]="1"  
-    [circular]="false"
-    [showIndicators]="false"  
-    [showNavigators]="true"
-    > 
-    <ng-template let-car pTemplate="item"> 
-      <div class="card" style="width: 18rem;">
-        <img class="card-img-top" src={{car.picturelink}} alt="Card image cap">
-        <div class="card-body">
-          <p class="card-text text-center">{{car.description}}</p>
-          <p class="card-text text-center">{{car.id}}</p>
-      
-        </div>
+<p-carousel
+  [value]="smallgalitem"
+  [numVisible]="3"
+  [numScroll]="1"
+  [circular]="false"
+  [showIndicators]="false"
+  [showNavigators]="true"
+>
+  <ng-template let-car pTemplate="item">
+    <div class="card" style="width: 18rem">
+      <img
+        class="card-img-top"
+        src="{{ car.picturelink }}"
+        alt="Card image cap"
+      />
+      <div class="card-body">
+        <p class="card-text text-center">{{ car.description }}</p>
+        <p class="card-text text-center">{{ car.id }}</p>
       </div>
-    </ng-template> 
+    </div>
+  </ng-template>
 </p-carousel>
 
-
-<p class="accomotext text-center">A peaceful yet vibrant venue gently hidden among the coconut tree groves</p>
+<p class="accomotext text-center">
+  A peaceful yet vibrant venue gently hidden among the coconut tree groves
+</p>
 <div class="d-flex justify-content-center">
-  <a  class="testbor border btn btn-lg rounded-pill"href="/accomodation">explore The resort</a>
+  <a class="testbor border btn btn-lg rounded-pill" href="/accomodation"
+    >explore The resort</a
+  >
 </div>
-
-
 
 <div class="row">
   <div class="col-2">
     <div class="stackParent">
-      <img class="mapsect mx-auto img-fluid" src="../../assets/Images/island-map.svg">
+      <img
+        class="mapsect mx-auto img-fluid"
+        src="../../assets/Images/island-map.svg"
+      />
     </div>
   </div>
 </div>
-
-

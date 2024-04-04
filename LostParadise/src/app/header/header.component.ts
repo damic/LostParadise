@@ -5,18 +5,17 @@ import { Component } from '@angular/core';
   standalone: true,
   imports: [],
   templateUrl: './header.component.html',
-  styleUrl: './header.component.css'
+  styleUrl: './header.component.css',
 })
 export class HeaderComponent {
-
-  constructor() { }
+  constructor() {}
 
   toggleMenu() {
-    let menuToggle: HTMLInputElement = document.getElementById('menu-toggle') as HTMLInputElement;
+    let menuToggle: HTMLInputElement = document.getElementById(
+      'menu-toggle',
+    ) as HTMLInputElement;
     if (menuToggle) {
       menuToggle.checked = false;
     }
   }
-
-
 }

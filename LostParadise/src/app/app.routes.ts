@@ -22,11 +22,10 @@ export const routes: Routes = [
   { path: 'privacyp', component: PrivacypComponent },
   { path: 'faq', component: FaqComponent },
   { path: 'terms', component: TermsComponent },
-
 ];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+  exports: [RouterModule],
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {}

@@ -1,35 +1,31 @@
-
-.testbor
-{
-
+.testbor {
   border: 1px;
 }
 
-.image-container1{
-    margin-left: 50px;
-    margin-right: 50px;
-    height: 1214px;
-    width: 1820px;
-    top: 20px;
-    position: relative;
-    display: inline-block;
+.image-container1 {
+  margin-left: 50px;
+  margin-right: 50px;
+  height: 1214px;
+  width: 1820px;
+  top: 20px;
+  position: relative;
+  display: inline-block;
 }
 
 .image-container1 img {
   display: block;
-  
+
   width: 100%;
   height: auto;
 }
 
-.text-wrap-white{
-  font-family: 'LpFontReg';
+.text-wrap-white {
+  font-family: "LpFontReg";
   color: white;
   z-index: 10;
   text-align: center;
-
 }
-.tet{
+.tet {
   width: Fixed (562px);
   height: Hug (91px);
   top: 1416px;
@@ -38,17 +34,14 @@
   border-radius: 15px;
   border: 1px;
   gap: 10px;
-  
-
 }
 
 .stackParent {
-  position: relative
+  position: relative;
 }
 
 /* make image responsive */
 .stack-Img {
-  
   max-width: 100vw;
   margin-left: 50px;
   margin-right: 50px;
@@ -57,7 +50,7 @@
   height: auto;
 }
 .stack-Txt {
-  font-family: 'LpFontReg';
+  font-family: "LpFontReg";
   padding-left: 90vw;
   position: absolute;
   top: 50%;
@@ -65,7 +58,7 @@
   transform: translate(-50%, -50%);
   color: white;
   font-size: 24px;
-/* Lost Paradise */
+  /* Lost Paradise */
 
   font-style: normal;
   font-weight: 400;
@@ -74,31 +67,29 @@
   text-align: center;
   letter-spacing: 0.15em;
   font-variant: small-caps;
-
-
 }
 
-.storytext{
-  font-family: 'LpFontReg';
+.storytext {
+  font-family: "LpFontReg";
   font-size: 56px;
   margin-left: 20%;
   margin-right: 20%;
 }
 
-.accomotext{
-  font-family: 'LpFontReg';
+.accomotext {
+  font-family: "LpFontReg";
   font-size: 56px;
   margin-left: 20%;
   margin-right: 20%;
 }
 
 p.text {
-  font-family: 'LpFontReg';
+  font-family: "LpFontReg";
   display: block;
   position: absolute;
   top: 20%;
   left: 20%;
-  transform: translate(-50%, -50%); 
+  transform: translate(-50%, -50%);
   color: #fff;
   z-index: 10;
 }
@@ -106,13 +97,12 @@ p.text {
 .btn-lg {
   background: #ffffff;
   color: #000;
-  border:1px thin;
-  border-width:thin;
-  border-style:solid;
+  border: 1px thin;
+  border-width: thin;
+  border-style: solid;
 
-  font-family: 'LpFontReg';
+  font-family: "LpFontReg";
   font-variant: small-caps;
-
 }
 
 .btn-lg:hover {
@@ -121,27 +111,25 @@ p.text {
 .btn-lg:hover::target-text {
   background: wheat;
 }
-a:hover{
+a:hover {
   color: #ffffff;
 }
 
-.a{
-
+.a {
 }
 
-.card{
-padding: 2vw;
-margin: 0 auto;
-border-width:thin;
-border-style:solid;
-border-color:black;
-border-radius: 0%;
+.card {
+  padding: 2vw;
+  margin: 0 auto;
+  border-width: thin;
+  border-style: solid;
+  border-color: black;
+  border-radius: 0%;
 }
 .card-text {
-  font-family: 'LpFontReg';
+  font-family: "LpFontReg";
   display: block;
 }
-
 
 .mapsect {
   max-width: 100vw;
@@ -150,37 +138,31 @@ border-radius: 0%;
   height: auto;
 }
 
-
-
 ::ng-deep .p-carousel .p-carousel-content .p-carousel-prev {
   padding: 2vw;
   margin: 0 auto;
-  
-  border-width:thin;
-  border-style:solid;
-  border-color:black;
+
+  border-width: thin;
+  border-style: solid;
+  border-color: black;
   border-radius: 0%;
-  left:45vw; 
-  top:40vw;
-  
+  left: 45vw;
+  top: 40vw;
 }
 
 ::ng-deep .p-carousel .p-carousel-content .p-carousel-next {
   padding: 2vw;
   margin: 0 auto;
-  
-  border-width:thin;
-  border-style:solid;
-  border-color:black;
+
+  border-width: thin;
+  border-style: solid;
+  border-color: black;
   border-radius: 0%;
-  right:45vw; 
-  top:40vw;
-  
+  right: 45vw;
+  top: 40vw;
 }
 
-::ng-deep .p-carousel-content{
+::ng-deep .p-carousel-content {
   min-height: 100vw;
   min-width: 100vw;
-  
 }
-
