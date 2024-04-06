@@ -48,18 +48,6 @@
   text-align: justified;
 }
 
-.headercontainer {
-  font-family: "LpFontReg";
-
-  display: block;
-  position: absolute;
-  top: 20%;
-  left: 20%;
-  transform: translate(-50%, -50%);
-  color: #fff;
-  z-index: 10;
-}
-
 .openinghours {
   width: Fixed (898px);
   height: Fixed (116px);
@@ -70,9 +58,14 @@
   border: 1px;
 }
 
-.openhourss {
+.openhoursbox {
   border: 1px solid black;
   border-radius: 20px;
+}
+
+.openhourstext{
+  padding-top: 2%;
+  padding-bottom: 2%;
 }
 
 .card {
@@ -101,7 +94,7 @@
 }
 
 .gridcard {
-  background-image: url("../../assets/Images/gridbackground.svg");
+  background-image: url("../../../assets/Images/gridbackground.svg");
   height: 800px;
   width: 100%;
 }

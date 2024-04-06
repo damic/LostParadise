@@ -1,3 +1,15 @@
+h1{
+  font-family: "LpFontReg";
+  font-style: normal;
+  text-align: center;
+  padding-top: 2%;
+  padding-left: 30%;
+  padding-right: 30%;
+  font-size: 56px;
+
+}
+
+
 .testbor {
   border: 1px;
 }
@@ -69,20 +81,6 @@
   font-variant: small-caps;
 }
 
-.storytext {
-  font-family: "LpFontReg";
-  font-size: 56px;
-  margin-left: 20%;
-  margin-right: 20%;
-}
-
-.accomotext {
-  font-family: "LpFontReg";
-  font-size: 56px;
-  margin-left: 20%;
-  margin-right: 20%;
-}
-
 p.text {
   font-family: "LpFontReg";
   display: block;
@@ -113,9 +111,6 @@ p.text {
 }
 a:hover {
   color: #ffffff;
-}
-
-.a {
 }
 
 .card {
@@ -166,3 +161,4 @@ a:hover {
   min-height: 100vw;
   min-width: 100vw;
 }
+
