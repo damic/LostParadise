@@ -1,15 +1,15 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { HomeComponent } from './home/home.component';
-import { ContactComponent } from './contact/contact.component';
-import { AccomodationComponent } from './accomodation/accomodation.component';
-import { BarComponent } from './bar/bar.component';
-import { ExploreComponent } from './explore/explore.component';
-import { ResortComponent } from './resort/resort.component';
-import { StoryComponent } from './story/story.component';
-import { PrivacypComponent } from './privacyp/privacyp.component';
-import { FaqComponent } from './faq/faq.component';
-import { TermsComponent } from './terms/terms.component';
+import { HomeComponent } from './pages/home/home.component';
+import { ContactComponent } from './pages/contact/contact.component';
+import { AccomodationComponent } from './pages/accomodation/accomodation.component';
+import { BarComponent } from './pages/bar/bar.component';
+import { ExploreComponent } from './pages/explore/explore.component';
+import { ResortComponent } from './pages/resort/resort.component';
+import { StoryComponent } from './pages/story/story.component';
+import { PrivacypComponent } from './pages/privacyp/privacyp.component';
+import { FaqComponent } from './pages/faq/faq.component';
+import { TermsComponent } from './pages/terms/terms.component';
 
 export const routes: Routes = [
   { path: '', component: HomeComponent },
