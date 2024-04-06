@@ -1,3 +1,24 @@
+h1{
+
+  font-family: "LpFontReg";
+  font-style: normal;
+  text-align: center;
+  padding-top: 2%;
+  padding-left: 30%;
+  padding-right: 30%;
+  font-size: 56px;
+}
+
+p{
+  font-family: "LpFontReg";
+  font-style: normal;
+  text-align: center;
+  padding-top: 2%;
+  padding-left: 25%;
+  padding-right: 25%;
+
+}
+
 .stackParent {
   position: relative;
 }
@@ -30,22 +51,6 @@
   text-align: center;
   letter-spacing: 0.15em;
   font-variant: small-caps;
-}
-
-.covertext1 {
-  font-family: "LpFontReg";
-  font-size: 56px;
-  margin-left: 20%;
-  margin-right: 20%;
-}
-
-.minitext {
-  font-family: "LpFontReg";
-  font-size: 22px;
-  font-weight: 400;
-  line-height: 32px;
-  letter-spacing: 0em;
-  text-align: justified;
 }
 
 .openinghours {
@@ -100,10 +105,16 @@
 }
 
 .bigcard {
-  top: 15%;
-
+  top: 5%;
   padding: 3vw;
   position: relative;
   margin: auto;
   background-color: white;
+}
+
+.cardcsss
+{
+  padding-top: 88%;
+  padding-bottom: 5%;
+
 }
