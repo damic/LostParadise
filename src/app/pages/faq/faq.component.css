@@ -1,0 +1,22 @@
+.row {
+  background: white;
+  height: 30px;
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  margin-top: 5px;
+}
+.left {
+  padding-left: 20vw;
+  background: white;
+}
+.separator {
+  flex-grow: 1;
+  font-size: 20px;
+  padding-left: 2%;
+  border-bottom: dotted 3px black;
+}
+.right {
+  background: white;
+  padding-right: 20vw;
+}

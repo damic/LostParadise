@@ -1,0 +1,44 @@
+body { background-color: black; }
+
+/*############################ FONTS ############################## */
+@font-face {
+  font-family: "LpFontBold";
+  src: url("assets/font/CatalogueLL-Bold.otf");
+}
+@font-face {
+  font-family: "LpFontBoldItal";
+  src: url("assets/font/CatalogueLL-BoldItalic.otf");
+}
+@font-face {
+  font-family: "LpFontLight";
+  src: url("assets/font/CatalogueLL-Light.otf");
+}
+@font-face {
+  font-family: "LpFontLightItal";
+  src: url("assets/font/CatalogueLL-LightItalic.otf");
+}
+@font-face {
+  font-family: "LpFontReg";
+  src: url("assets/font/CatalogueLL-Regular.otf");
+}
+@font-face {
+  font-family: "LpFontRegItal";
+  src: url("assets/font/CatalogueLL-RegularItalic.otf");
+}
+/*################################################################# */
+
+/*############################ COLORS ############################## */
+:root {
+  --red: #ff0000;
+  --black: #000000;
+  --white: #ffffff;
+  --warmGrey1: #f8f7f3;
+  --warmGrey2: #e1e0dd;
+  --warmGrey3: #d0cdc9;
+  --warmGrey4: #b5b1a9;
+  --warmGrey5: #9d988e;
+  --warmGrey6: #89837a;
+  --warmGrey7: #6a655b;
+  --warmGrey8: #4c473e;
+}
+/*#################################################################### */
