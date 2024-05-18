@@ -1,0 +1,14 @@
+{
+  "routes": [
+    "/",
+    "/accomodation",
+    "/bar",
+    "/contact",
+    "/explore",
+    "/faq",
+    "/privacyp",
+    "/resort",
+    "/story",
+    "/terms"
+  ]
+}
